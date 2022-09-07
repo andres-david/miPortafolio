@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 
+import Swal from 'sweetalert2';
+
 
 @Component({
   selector: 'app-contacto',
@@ -12,7 +14,13 @@ export class ContactoComponent implements OnInit {
 
   public contacto:{name:string, email:string, message:string}
 
-  constructor() {}
+  constructor() {
+    this.contacto = {
+      name: '',
+      email: '',
+      message: ''
+    }
+  }
 
   ngOnInit(): void {
   }

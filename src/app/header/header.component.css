@@ -30,6 +30,7 @@ li{
 .title h2{
     color: #B0B3B8;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .menu{

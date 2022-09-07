@@ -69,14 +69,12 @@
     height: 40px;
     margin-bottom: 18px;
     padding: 5px;
-    /* background-color: #1f2d40; */
     background-color: #3a3b3c;
     border: none;
     outline: none;
     border-radius: 5px;
     border-bottom: 1px solid #B0B3B8;
     color: #fff;
-    /* color: #fff; */
 }
 
 #form textarea{

@@ -50,7 +50,7 @@ main > h1{
     font-size: 35px;
     color: #B0B3B8;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: justify;
 }
 
 .div__title h3{
@@ -62,7 +62,7 @@ main > h1{
 .div__title p{
     font-size: 20px;
     color: #B0B3B8;
-    text-align: left;
+    text-align: justify;
 }
 
 @media (max-width: 849px){
