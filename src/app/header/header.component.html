@@ -1,0 +1,45 @@
+<header id="header" class="header">
+
+    <div class="title">
+        <h2>
+            Portafolio
+        </h2>
+
+        <div 
+        class="icon toggle-menu" 
+        id="toggle-menu"
+        (click)="toggle()"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+    </div>
+
+    <ul class="menu">
+
+        <li>
+            <a (click)="home()">
+                Sobre mí
+            </a>  
+        </li>
+
+        <li>
+            <a (click)="tecnologias()">Tecnologías</a>
+        </li>
+
+        <li>
+            <a (click)="proyectos()">Proyectos</a>
+        </li>
+
+        <li>
+            <a (click)="description()">Mi CV</a>
+        </li>
+
+        <li>
+            <a (click)="contacto()">Contacto</a>
+        </li>
+
+    </ul>
+
+</header>

@@ -1,0 +1,25 @@
+.main-descripcion{
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-descripcion h1{
+    font-size: 45px;
+    color: #B0B3B8;
+}
+
+.main-descripcion h2{
+    font-size: 35px;
+    margin-top: 25px;
+    color: #B0B3B8;
+}
+
+.main-descripcion p{
+    font-size: 20px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    color: #B0B3B8;
+}
