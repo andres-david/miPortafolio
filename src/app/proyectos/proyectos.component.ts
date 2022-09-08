@@ -12,6 +12,14 @@ export class ProyectosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToLaikamapp(url: string){
+    window.open(url, '_blank');
+  }
+
+  goToGraficas(url: string){
+    window.open(url, '_blank');
+  }
+
   goToBlack(url: string){
     window.open(url, '_blank');
   }

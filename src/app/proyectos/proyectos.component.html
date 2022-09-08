@@ -1,6 +1,40 @@
-<main class="main-proyectos">
+<main class="main-proyectos animate__animated animate__fadeIn">
 
-    <h1>Proyectos Realizados</h1>
+    <h1 class="animate__animated animate__fadeIn">Proyectos Realizados:</h1>
+
+    <div class="proyectos__f1">
+
+        <div class="proyecto">
+
+            <img 
+                src="../../assets/imgs/proyectos/laikamapp.PNG"
+                (click)="goToLaikamapp('https://laikamappfront.herokuapp.com/')"
+            >
+
+            <a 
+                (click)="goToLaikamapp('https://laikamappfront.herokuapp.com/')"
+            >
+                Aplicación móvil LaikaMapp (Abrir en modo de móvil en el navegador)
+            </a>
+
+        </div>
+
+        <div class="proyecto">
+
+            <img 
+                src="../../assets/imgs/proyectos/graficas-angular.PNG"
+                (click)="goToGraficas('https://andres-david.github.io/todo-js/')"
+            >
+
+            <a 
+            (click)="goToGraficas('https://andres-david.github.io/todo-js/')"
+            >
+                Graficas con Angular
+            </a>
+
+        </div>
+
+    </div>
 
     <div class="proyectos__f1">
 
@@ -116,7 +150,7 @@
             <a 
                 (click)="goToMaquetacion1('https://andres-david.github.io/maquetacion_estatica1/')"
             >
-                PokeApi (Servicio Api)
+                Maquetación con CSS y HTML
             </a>
 
         </div>
